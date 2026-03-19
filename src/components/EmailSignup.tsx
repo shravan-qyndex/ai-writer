@@ -74,7 +74,7 @@ export function EmailSignup({ className }: { className?: string }) {
             disabled={status === "loading"}
             aria-describedby={error ? "email-error" : undefined}
             aria-invalid={!!error}
- />
+    />
         </div>
         <Button
           type="submit"

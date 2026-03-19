@@ -6,13 +6,13 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "AI Writing Tool — Write Smarter, Faster",
-  description: "Transform your writing process with AI-powered tools for editing, brainstorming, and content creation.",
+  title: "SEO optimised — Your Cleaning Partner in Sydney",
+  description: "Discover SEO optimised, the premier cleaning service in Sydney. Reliable, eco-friendly, and tailored to your needs.",
   openGraph: {
-    title: "AI Writing Tool — Write Smarter, Faster",
-    description: "Transform your writing process with AI-powered tools for editing, brainstorming, and content creation.",
-    type: "website"
-  }
+    title: "SEO optimised — Your Cleaning Partner in Sydney",
+    description: "Discover SEO optimised, the premier cleaning service in Sydney. Reliable, eco-friendly, and tailored to your needs.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

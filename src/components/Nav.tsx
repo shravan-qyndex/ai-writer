@@ -24,8 +24,8 @@ export function Nav() {
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-[var(--brand-primary)] to-[var(--brand-secondary)]">
             <Zap className="h-4 w-4 text-white" />
           </span>
-          {/* PLACEHOLDER: Replace AI writing tool with your company name */}
-          <span>AI writing tool</span>
+          {/* PLACEHOLDER: Replace SEO optimised with your company name */}
+          <span>SEO optimised</span>
         </Link>
 
         {/* Desktop links */}

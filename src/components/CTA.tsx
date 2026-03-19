@@ -31,7 +31,7 @@ export function CTA() {
         </h2>
         <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
           {/* PLACEHOLDER: Replace Get Started with your call-to-action message */}
-          Join thousands of teams building with AI writing tool.
+          Join thousands of teams building with SEO optimised.
           Start your free 14-day trial — no credit card required.
         </p>
 

@@ -49,8 +49,8 @@ export function Footer() {
               <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-[var(--brand-primary)] to-[var(--brand-secondary)]">
                 <Zap className="h-4 w-4 text-white" />
               </span>
-              {/* PLACEHOLDER: Replace AI writing tool */}
-              <span>AI writing tool</span>
+              {/* PLACEHOLDER: Replace SEO optimised */}
+              <span>SEO optimised</span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground max-w-xs leading-relaxed">
               {/* PLACEHOLDER: Replace The modern platform that helps teams ship faster. with your product tagline */}
@@ -97,8 +97,8 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-border/40 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
             &copy; {currentYear}{" "}
-            {/* PLACEHOLDER: Replace AI writing tool */}
-            AI writing tool. All rights reserved.
+            {/* PLACEHOLDER: Replace SEO optimised */}
+            SEO optimised. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground">
             Made with care for developers everywhere.

@@ -14,7 +14,7 @@ export function Hero() {
         <div
           className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           style={{
-            background: "linear-gradient(to top right, var(--brand-primary), var(--brand-secondary), var(--brand-accent))"
+            background: "linear-gradient(to top right, var(--brand-primary), var(--brand-secondary), var(--brand-accent))",
           }}
  />
       </div>
@@ -25,7 +25,7 @@ export function Hero() {
         <div
           className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
           style={{
-            background: "linear-gradient(to top right, var(--brand-accent), var(--brand-primary))"
+            background: "linear-gradient(to top right, var(--brand-accent), var(--brand-primary))",
           }}
  />
       </div>
@@ -35,18 +35,18 @@ export function Hero() {
           <div className="inline-flex items-center gap-2 rounded-full border border-border/60 bg-muted/60 px-4 py-1.5 text-sm backdrop-blur-sm">
             <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" />
             <span className="text-muted-foreground">
-              Empowering <strong className="text-foreground">10,000+</strong> creators worldwide
+              Trusted by <strong className="text-foreground">1,000+</strong> Sydney households
             </span>
           </div>
         </div>
 
         <h1 className="text-5xl font-extrabold tracking-tight sm:text-7xl leading-[1.08]">
-          <span className="block">Write Smarter,</span>
-          <span className="block mt-2 gradient-text shimmer-bg">Edit Faster.</span>
+          <span className="block">Sparkling Clean Spaces</span>
+          <span className="block mt-2 gradient-text shimmer-bg">Tailored for You.</span>
         </h1>
 
         <p className="mt-8 text-xl leading-8 text-muted-foreground max-w-2xl mx-auto">
-          Revolutionize your writing process with AI-powered tools for brainstorming, editing, and content creation.
+          Experience the difference with SEO optimised — Sydney's trusted cleaning service for homes and offices.
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -56,10 +56,12 @@ export function Hero() {
             asChild
           >
             <Link href="#signup">
-              Get Started <ArrowRight className="ml-2 h-4 w-4" />
+              Book Now <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
-          <EmailSignup className="mt-4 sm:mt-0" />
+          <Button variant="ghost" size="lg" className="h-12 px-8 text-base" asChild>
+            <Link href="#services">Explore Services</Link>
+          </Button>
         </div>
       </div>
     </section>

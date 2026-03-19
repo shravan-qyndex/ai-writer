@@ -109,7 +109,7 @@ export function Pricing() {
                     <Check
                       className="h-4 w-4 mt-0.5 shrink-0"
                       style={{ color: "var(--brand-primary)" }}
- />
+              />
                     <span>{feature}</span>
                   </li>
                 ))}

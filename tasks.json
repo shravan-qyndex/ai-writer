@@ -1,0 +1,66 @@
+{
+  "tasks": [
+    {
+      "id": "subtask-1-1-1",
+      "title": "Create Hero Component",
+      "description": "Implement the Hero section with demo video and CTA button.",
+      "complexity": 3,
+      "priority": "medium",
+      "dependencies": [],
+      "status": "pending",
+      "change_type": "modify",
+      "file_path": "src/components/Hero.tsx",
+      "related_files": []
+    },
+    {
+      "id": "subtask-1-2-1",
+      "title": "Create Features Component",
+      "description": "Implement the Features grid with feature cards.",
+      "complexity": 3,
+      "priority": "medium",
+      "dependencies": [],
+      "status": "pending",
+      "change_type": "modify",
+      "file_path": "src/components/Features.tsx",
+      "related_files": []
+    },
+    {
+      "id": "subtask-1-3-1",
+      "title": "Create Pricing Component",
+      "description": "Implement the Pricing table with tiered pricing plans.",
+      "complexity": 3,
+      "priority": "medium",
+      "dependencies": [],
+      "status": "pending",
+      "change_type": "modify",
+      "file_path": "src/components/Pricing.tsx",
+      "related_files": []
+    },
+    {
+      "id": "subtask-1-4-1",
+      "title": "Create Email Signup Component",
+      "description": "Implement the Email signup form with input fields and submit button.",
+      "complexity": 3,
+      "priority": "medium",
+      "dependencies": [],
+      "status": "pending",
+      "change_type": "modify",
+      "file_path": "src/components/EmailSignup.tsx",
+      "related_files": []
+    },
+    {
+      "id": "subtask-1-4-2",
+      "title": "Create Testimonials Component",
+      "description": "Implement the Testimonials carousel to display user reviews.",
+      "complexity": 2,
+      "priority": "medium",
+      "dependencies": [],
+      "status": "pending",
+      "change_type": "modify",
+      "file_path": "src/components/Testimonials.tsx",
+      "related_files": []
+    }
+  ],
+  "total_complexity": 14,
+  "estimated_total_duration_minutes": 70
+}
